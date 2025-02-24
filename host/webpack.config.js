@@ -17,7 +17,7 @@ module.exports = {
         new ModuleFederationPlugin({
             name: 'host',
             remotes: {
-                remote: 'remote@http://localhost:3001/remoteEntry.js', // Referenced in host/src/index.html
+                remote: 'remote@http://localhost:3001/[window.externalRemote]', // Referenced in host/src/index.html
             },
         }),
         new ExternalTemplateRemotesPlugin(),
