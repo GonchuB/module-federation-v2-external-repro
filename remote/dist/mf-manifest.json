@@ -1,0 +1,48 @@
+{
+  "id": "remote",
+  "name": "remote",
+  "metaData": {
+    "name": "remote",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "1.0.0",
+      "buildName": "minimal-mf-enhanced"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "remote",
+    "pluginVersion": "0.9.0",
+    "prefetchInterface": false,
+    "publicPath": "http://localhost:3001/"
+  },
+  "shared": [],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "remote:sayHello",
+      "name": "sayHello",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_sayHello.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./sayHello"
+    }
+  ]
+}
