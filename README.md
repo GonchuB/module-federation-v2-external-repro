@@ -1,5 +1,5 @@
 # Minimal reproduction of module federation v2 issue
-external-remotes-plugin and @module-federation/enhanced
+Bundle size increase when swapping webpack plugin for @module-federation/enhanced
 
 # Steps to reproduce
 
